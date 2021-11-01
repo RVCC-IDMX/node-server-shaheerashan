@@ -1,9 +1,9 @@
-const http = require('http');
-const fs = require('fs')
+import { createServer } from 'http';
+import { readFile } from 'fs';
 
 const PORT = process.env.PORT || 3000;
 
-const server = http.createServer((req, res) => {
+const server = createServer((req, res) => {
     res.setHeader('Content-Type', 'text/html');
 
     let path = './';
@@ -17,15 +17,12 @@ const server = http.createServer((req, res) => {
             res.statusCode = 200;
             break;
         default:
-            /* This code would redirect to Home
-            res.setHeader('Location', '/');
-            res.statusCode = 301; */
             path += '404.html';
             res.statusCode = 404;
             break;
     }
 
-    fs.readFile(path, (err, data) => {
+    readFile(path, (err, data) => {
         if(err) {
             console.error(err);
             res.end()
