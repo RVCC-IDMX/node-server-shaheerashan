@@ -1,5 +1,5 @@
-import { createServer } from 'http';
-import { readFile } from 'fs';
+const http = require("http");
+const fs = require("fs");
 
 const PORT = process.env.PORT || 3000;
 
