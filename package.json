@@ -4,10 +4,11 @@
   "description": "",
   "main": "server5.js",
   "dependencies": {
-    "eslint-config-airbnb-base": "^14.2.1",
     "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.2",
+    "main": "^1000.0.1",
     "nodemon": "^2.0.14",
     "prettier": "^2.4.1"
   },
