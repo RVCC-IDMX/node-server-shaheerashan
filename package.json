@@ -2,10 +2,10 @@
   "name": "node_demo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server5.js",
   "scripts": {
-    "dev": "nodemon server5",
-    "start": "node server5.js"
+    "dev": "nodemon server",
+    "start": "node server"
   },
   "repository": {
     "type": "git",
