@@ -1,10 +1,20 @@
 {
-  "name": "node_demo",
+  "name": "node-server-shaheerashan",
   "version": "1.0.0",
   "description": "",
   "main": "server5.js",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "nodemon": "^2.0.14",
+    "prettier": "^2.4.1"
+  },
+  "devDependencies": {},
   "scripts": {
-    "dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server5",
     "start": "node server"
   },
   "repository": {
@@ -13,20 +23,9 @@
   },
   "keywords": [],
   "author": "Shaheer Ashan <shaheer.ashan@gmail.com> (https://github.com/shaheerashan)",
-  "license": "UNLICENSED",
-  "type": "module",
+  "license": "Student",
   "bugs": {
     "url": "https://github.com/RVCC-IDMX/node-server-shaheerashan/issues"
   },
-  "homepage": "https://github.com/RVCC-IDMX/node-server-shaheerashan#readme",
-  "devDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.25.2",
-    "prettier": "^2.4.1"
-  },
-  "dependencies": {
-    "nodemon": "^2.0.14"
-  }
+  "homepage": "https://github.com/RVCC-IDMX/node-server-shaheerashan#readme"
 }
