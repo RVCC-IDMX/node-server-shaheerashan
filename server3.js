@@ -1,9 +1,9 @@
-const {unlink} = require("fs");
+const { unlink } = require('fs');
 
-unlink("hello.txt", (err) => {
-    if (err) {
-        console.error(err);
-        return;
-    }
-    console.log("file deleted!");
+unlink('hello.txt', (err) => {
+  if (err) {
+    console.error(err);
+    return;
+  }
+  console.log('file deleted!');
 });

@@ -1,10 +1,6 @@
-const { readFile, readFileSync } = require('fs')
+const http = require('http');
 
-try {
-const data = readFileSync("hi.txt", 'utf8');
-console.log(data);
-} catch(err) {
-  console.error(err);
-}
+const HOSTNAME = process.env.HOSTNAME || 'localhost';
+const PORT = process.env.PORT || 3000;
 
-  console.log("Log from outside");
+window.document;
